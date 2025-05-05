@@ -40,3 +40,14 @@ body {
     width: 100%;
     border-radius: 10px;
   }
+@media (max-width: 768px) {
+    .shop-img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .shop-img {
+        max-width: 200px;
+    }
+}
